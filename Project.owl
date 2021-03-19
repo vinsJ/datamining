@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare">
+    <Prefix name="" IRI="http://www.semanticweb.org/ludo1/ontologies/2021/2/untitled-ontology-29"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.w3.org/2003/01/geo/wgs84_pos#</Import>
+    <Declaration>
+        <Class IRI="#bus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bus_station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#subway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#subway_station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#train"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#train_station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tramway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tramway_station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#transport"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#located_in"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#coordinate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#id"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#lat"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#long"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Defense"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RER_A"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#T2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#issy_val_de_seine"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#bus_station"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contains"/>
+            <Class IRI="#bus"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#subway_station"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contains"/>
+            <Class IRI="#subway"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#train_station"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contains"/>
+            <Class IRI="#train"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#tramway_station"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contains"/>
+            <Class IRI="#tramway"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#bus"/>
+        <Class IRI="#transport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bus_station"/>
+        <Class IRI="#station"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#subway"/>
+        <Class IRI="#transport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#subway_station"/>
+        <Class IRI="#station"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#train"/>
+        <Class IRI="#transport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#train_station"/>
+        <Class IRI="#station"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tramway"/>
+        <Class IRI="#transport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tramway_station"/>
+        <Class IRI="#station"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#station"/>
+        <NamedIndividual IRI="#Defense"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#train"/>
+        <NamedIndividual IRI="#RER_A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#station"/>
+        <NamedIndividual IRI="#issy_val_de_seine"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Defense"/>
+        <NamedIndividual IRI="#RER_A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#issy_val_de_seine"/>
+        <NamedIndividual IRI="#T2"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#coordinate"/>
+        <NamedIndividual IRI="#Defense"/>
+        <Literal>[2.28,48.4]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom"/>
+        <NamedIndividual IRI="#Defense"/>
+        <Literal>Defense</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom"/>
+        <NamedIndividual IRI="#RER_A"/>
+        <Literal>RER A</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nom"/>
+        <NamedIndividual IRI="#T2"/>
+        <Literal>T2</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#contains"/>
+        <ObjectProperty IRI="#located_in"/>
+    </InverseObjectProperties>
+    <DataPropertyDomain>
+        <DataProperty IRI="#coordinate"/>
+        <Class IRI="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#lat"/>
+        <Class IRI="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#long"/>
+        <Class IRI="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#id"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#lat"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#long"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nom"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+        <IRI>#lat</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+        <IRI>#long</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
