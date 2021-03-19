@@ -1,0 +1,28 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://toto#" > 
+  <rdf:Description rdf:nodeID="A0">
+    <j.0:tramway rdf:datatype="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare#tramway">0</j.0:tramway>
+    <j.0:train rdf:datatype="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare#train">0</j.0:train>
+    <j.0:subway rdf:datatype="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare#metro">1</j.0:subway>
+    <j.0:rer rdf:datatype="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare#rer">0</j.0:rer>
+    <j.0:nom_ligne>METRO 2</j.0:nom_ligne>
+    <j.0:nom>Charles de Gaulle Etoile</j.0:nom>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2003/01/geo/wgs84_pos#">2.29556736975E0</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2003/01/geo/wgs84_pos#">4.8874613927E1</j.0:coordinate>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <j.0:tramway rdf:datatype="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare#tramway">0</j.0:tramway>
+    <j.0:train rdf:datatype="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare#train">0</j.0:train>
+    <j.0:subway rdf:datatype="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare#metro">1</j.0:subway>
+    <j.0:rer rdf:datatype="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare#rer">0</j.0:rer>
+    <j.0:nom_ligne>METRO 3</j.0:nom_ligne>
+    <j.0:nom>Havre-Caumartin</j.0:nom>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2003/01/geo/wgs84_pos#">2.32754308036E0</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2003/01/geo/wgs84_pos#">4.88735133896E1</j.0:coordinate>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <j.0:data rdf:nodeID="A3"/>
+    <j.0:data rdf:nodeID="A4"/>
+  </rdf:Description>
+</rdf:RDF>
