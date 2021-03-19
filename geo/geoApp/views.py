@@ -8,8 +8,10 @@ def home(request):
     # folium
     # Center of France : [46.227638,2.213749]
 
+    # link of icon : https://fontawesome.com/icons?d=gallery&p=2&q=train
+
     m = folium.Map(location=[48.866669,  2.33333],zoom_start=12)
-    folium.Marker([48.8763,  2.3254], popup  = "Paris Saint Lazare", icon=folium.Icon(color='red', icon='train', prefix='fa')).add_to(m)
+    folium.Marker([48.8763,  2.3254], tooltip = "Paris Saint Lazare", popup="RER-A\nRER-B\n...", icon=folium.Icon(color='red', icon='train', prefix='fa')).add_to(m)
 
     ## adding to view
 
