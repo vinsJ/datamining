@@ -1,4 +1,3 @@
-# datamining
+# Datamining final project - ESILV M1 Data&IA
 
-Datamining final project - ESILV M1 Data&IA
 Not made with ❤
