@@ -2,11 +2,10 @@ import json
 import requests
 import os
 
-os.environ['JENA_HOME']="C:/apache-jena-3.10.0/apache-jena-3.10.0"
-jena_bin="../../apache-jena-3.10.0/apache-jena-3.10.0/bat"
+jena_bin="E:/OneDrive/Documents/ESILV A4 2020-2021/Web_datamining/datamining/jena/bat"
 
 os.chdir(jena_bin)
-os.system("riot.bat --output=RDF/XML ../../../Web_data_miniing/Project/teste.jsonld> ../../../Web_data_miniing/Project/teste.rdf ")
+os.system("riot.bat --output=RDF/XML ../../datamining/IDF.jsonld> ../../datamining/IDF.rdf ")
 
 
 
