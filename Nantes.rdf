@@ -1,0 +1,997 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare#"
+    xmlns:j.1="http://schema.org/" > 
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/436">
+    <j.0:transport>12</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.07882E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7438646E1</j.0:coordinate>
+    <j.1:givenName>BAUDRAIRIE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/666">
+    <j.0:transport>02</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-4.6200467E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7526007E1</j.0:coordinate>
+    <j.1:givenName>PAUL GAUGUIN</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/614"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/533">
+    <j.0:transport>03</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.4857346E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7398754E1</j.0:coordinate>
+    <j.1:givenName>JEAN CARMET</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/685"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/448">
+    <j.0:transport>10</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.4960782E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7455345E1</j.0:coordinate>
+    <j.1:givenName>STRASBOURG</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/804">
+    <j.0:transport>06</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.8291123E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7475078E1</j.0:coordinate>
+    <j.1:givenName>CHAPELLE BELLEBEILLE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/816">
+    <j.0:transport>06</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.4736912E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7470864E1</j.0:coordinate>
+    <j.1:givenName>FOCH MAISON BLEUE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/802"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/804"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/1005">
+    <j.0:transport>A</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.6616903E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7492348E1</j.0:coordinate>
+    <j.1:givenName>HAUTS DE SAINT AUBIN</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/1017">
+    <j.0:transport>A</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.9608549E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7511559E1</j.0:coordinate>
+    <j.1:givenName>AVRILLE - ARDENNE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/525"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/536"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A6">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/694"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/8005">
+    <j.0:transport>31</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.4529189E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7473445E1</j.0:coordinate>
+    <j.1:givenName>HDV Mise en Place</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A7">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/528"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/667">
+    <j.0:transport>02</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-4.7452337E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.750692E1</j.0:coordinate>
+    <j.1:givenName>CARREAUX</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/3350">
+    <j.0:transport>42</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.0135902E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7482568E1</j.0:coordinate>
+    <j.1:givenName>GRIMORELLE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/817">
+    <j.0:transport>06</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.5316931E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7466444E1</j.0:coordinate>
+    <j.1:givenName>FOCH HARAS</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/449">
+    <j.0:transport>09</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.4877927E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7469695E1</j.0:coordinate>
+    <j.1:givenName>FOCH MAISON BLEUE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A8">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/447"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A9">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/681"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/805">
+    <j.0:transport>07</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.8685076E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7515159E1</j.0:coordinate>
+    <j.1:givenName>BONPLAND</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A10">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/436"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A11">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/8012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/1016">
+    <j.0:transport>A</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.4662285E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7471792E1</j.0:coordinate>
+    <j.1:givenName>HOTEL DE VILLE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/1004">
+    <j.0:transport>A</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.5638592E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7452107E1</j.0:coordinate>
+    <j.1:givenName>BAMAKO</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/8111">
+    <j.0:transport>31</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-4.8368488E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7598087E1</j.0:coordinate>
+    <j.1:givenName>VERIGNE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A12">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/448"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A13">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/426"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A14">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/1004"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A15">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/526"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/688">
+    <j.0:transport>04</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-4.8608564E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7472716E1</j.0:coordinate>
+    <j.1:givenName>SAINT BARTHELEMY</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A16">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/710"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/676">
+    <j.0:transport>02</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-4.9025218E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7444172E1</j.0:coordinate>
+    <j.1:givenName>MALAQUAIS</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/543">
+    <j.0:transport>06</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.0860524E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7475549E1</j.0:coordinate>
+    <j.1:givenName>COINTREAU</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/802">
+    <j.0:transport>11</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.3925734E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7444297E1</j.0:coordinate>
+    <j.1:givenName>CLINIQUE DE L'ANJOU</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/814">
+    <j.0:transport>07</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-6.151261E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7532687E1</j.0:coordinate>
+    <j.1:givenName>PISCINE C. MUFFAT</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A17">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/440"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/608">
+    <j.0:transport>01</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.9461916E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7480597E1</j.0:coordinate>
+    <j.1:givenName>POLYTECH ANGERS</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A18">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/532"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A19">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/8423"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A20">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/811"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/447">
+    <j.0:transport>10</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-4.8597822E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7448147E1</j.0:coordinate>
+    <j.1:givenName>ST LEZIN</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/689">
+    <j.0:transport>04</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-4.9161017E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7466758E1</j.0:coordinate>
+    <j.1:givenName>JAUDETTE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/677">
+    <j.0:transport>02</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-4.6953291E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7452075E1</j.0:coordinate>
+    <j.1:givenName>8 MAI TRELAZE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/532">
+    <j.0:transport>12</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.4732422E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.747028E1</j.0:coordinate>
+    <j.1:givenName>PLACE LORRAINE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A21">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/524"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A22">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/808"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/815">
+    <j.0:transport>05</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.238738E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7456299E1</j.0:coordinate>
+    <j.1:givenName>JEAN JAURES</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A23">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/527"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A24">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/816"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A25">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/1016"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A26">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/674"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A27">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/460"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/1001">
+    <j.0:transport>A</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.5016577E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7468581E1</j.0:coordinate>
+    <j.1:givenName>FOCH MAISONBLEUE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/525">
+    <j.0:transport>03</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.5463509E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7467038E1</j.0:coordinate>
+    <j.1:givenName>LICES &gt; CHATEAU</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/8359">
+    <j.0:transport>39</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.6121078E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.747006E1</j.0:coordinate>
+    <j.1:givenName>PLACE MONPROFIT</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A28">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/680"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/808">
+    <j.0:transport>08</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.4017155E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7454104E1</j.0:coordinate>
+    <j.1:givenName>MUTUALITE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A29">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/821"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A30">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/3272"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A31">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/815"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A32">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/714"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/1012">
+    <j.0:transport>A</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.5016557E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7479598E1</j.0:coordinate>
+    <j.1:givenName>CHU - HOPITAL</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/623">
+    <j.0:transport>01</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.7290405E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7473673E1</j.0:coordinate>
+    <j.1:givenName>SAINT JACQUES</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/538">
+    <j.0:transport>12</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.4739294E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7470324E1</j.0:coordinate>
+    <j.1:givenName>PLACE LORRAINE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/8106">
+    <j.0:transport>33</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.5873566E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7468484E1</j.0:coordinate>
+    <j.1:givenName>CHATEAU D'ANGERS</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/526">
+    <j.0:transport>08</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.3952038E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7450646E1</j.0:coordinate>
+    <j.1:givenName>DEPOT ST BARTH</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/429">
+    <j.0:transport>10</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.6286775E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7462458E1</j.0:coordinate>
+    <j.1:givenName>POIREL</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A33">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/1009"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A34">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/441"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/460">
+    <j.0:transport>09</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.2608952E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7468143E1</j.0:coordinate>
+    <j.1:givenName>ESPACE ANJOU</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/690">
+    <j.0:transport>01</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.285077E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7491134E1</j.0:coordinate>
+    <j.1:givenName>MONPLAISIR</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A35">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/1011"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A36">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/667"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/535">
+    <j.0:transport>03</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-6.0468626E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7504924E1</j.0:coordinate>
+    <j.1:givenName>ADEZIERE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A37">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/683"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A38">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/1001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/523">
+    <j.0:transport>03</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.8977796E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7498325E1</j.0:coordinate>
+    <j.1:givenName>POINCARE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/1011">
+    <j.0:transport>A</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.5409176E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.744382E1</j.0:coordinate>
+    <j.1:givenName>ANGERS - ROSERAIE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A39">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/817"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/806">
+    <j.0:transport>06</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-6.096323E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7430376E1</j.0:coordinate>
+    <j.1:givenName>HAUTS DE BOUCHEMAINE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/426">
+    <j.0:transport>11</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.5392947E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7470179E1</j.0:coordinate>
+    <j.1:givenName>REPUBLIQUE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/438">
+    <j.0:transport>05</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-4.9400633E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7474881E1</j.0:coordinate>
+    <j.1:givenName>DEPOT ST BARTH</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/818">
+    <j.0:transport>07</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.4795335E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7469887E1</j.0:coordinate>
+    <j.1:givenName>LORRAINE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A40">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/623"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A41">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/452"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/8770">
+    <j.0:transport>30</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.444797E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7471683E1</j.0:coordinate>
+    <j.1:givenName>HDV Mise en Place</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/524">
+    <j.0:transport>08</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.498793E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7459866E1</j.0:coordinate>
+    <j.1:givenName>MIRABEAU</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A42">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/1008"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/1010">
+    <j.0:transport>A</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.6225596E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7445119E1</j.0:coordinate>
+    <j.1:givenName>JEAN VILAR</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/621">
+    <j.0:transport>01</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.5510846E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7465244E1</j.0:coordinate>
+    <j.1:givenName>FOCH HARAS</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A43">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/462"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/669">
+    <j.0:transport>01</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.2610229E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7479988E1</j.0:coordinate>
+    <j.1:givenName>MIMOSAS</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/536">
+    <j.0:transport>11</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.5691991E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7425288E1</j.0:coordinate>
+    <j.1:givenName>ROUTE D'ANGERS</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A44">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/454"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/807">
+    <j.0:transport>11</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.9018331E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7468981E1</j.0:coordinate>
+    <j.1:givenName>COEUR DE MAINE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/439">
+    <j.0:transport>05</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.2688989E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7483524E1</j.0:coordinate>
+    <j.1:givenName>DUNANT</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A45">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/669"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A46">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/429"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A47">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/542"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A48">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/9404"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A49">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/621"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A50">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/439"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/694">
+    <j.0:transport>04</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-6.2479077E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7473763E1</j.0:coordinate>
+    <j.1:givenName>LE LANDREAU</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A51">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/677"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/440">
+    <j.0:transport>05</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.5930817E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7466318E1</j.0:coordinate>
+    <j.1:givenName>GARES BREMONT</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/820">
+    <j.0:transport>05</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.5461583E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7443942E1</j.0:coordinate>
+    <j.1:givenName>DUMONT D'URVILLE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A52">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/8005"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/452">
+    <j.0:transport>11</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-6.12557E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7461896E1</j.0:coordinate>
+    <j.1:givenName>SHAKESPEARE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A53">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/606"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/614">
+    <j.0:transport>01</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-6.056908E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7478642E1</j.0:coordinate>
+    <j.1:givenName>MAISON DE TECHNOPOLE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A54">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/1010"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A55">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/670"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A56">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/3300"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A57">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/543"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/681">
+    <j.0:transport>01</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.4865157E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7469788E1</j.0:coordinate>
+    <j.1:givenName>FOCH MAISON BLEUE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A58">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/449"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/695">
+    <j.0:transport>04</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-6.2691583E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7484276E1</j.0:coordinate>
+    <j.1:givenName>L'ATOLL</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/683">
+    <j.0:transport>04</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.8568222E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7473559E1</j.0:coordinate>
+    <j.1:givenName>PATTON</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A59">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/692"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A60">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/818"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/441">
+    <j.0:transport>06</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.9939701E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7473095E1</j.0:coordinate>
+    <j.1:givenName>LA BARRE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/821">
+    <j.0:transport>05</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.7655658E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7478316E1</j.0:coordinate>
+    <j.1:givenName>GARENNE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A61">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/8359"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/712">
+    <j.0:transport>02</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-4.9448886E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.747297E1</j.0:coordinate>
+    <j.1:givenName>DEPOT ST BARTH</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/9404">
+    <j.0:transport>15</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.8760086E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7419044E1</j.0:coordinate>
+    <j.1:givenName>DEPOT VOISIN</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A62">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/3350"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/670">
+    <j.0:transport>01</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.6367314E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7475543E1</j.0:coordinate>
+    <j.1:givenName>MONPROFIT</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/462">
+    <j.0:transport>10</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.2235872E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7482717E1</j.0:coordinate>
+    <j.1:givenName>SCHWEITZER</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A63">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/608"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/539">
+    <j.0:transport>03</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.8403975E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7484761E1</j.0:coordinate>
+    <j.1:givenName>VAL D'OR</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/527">
+    <j.0:transport>03</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.3859786E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7448796E1</j.0:coordinate>
+    <j.1:givenName>ALLARD</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/8531">
+    <j.0:transport>39</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-7.0696401E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7612324E1</j.0:coordinate>
+    <j.1:givenName>BOUVET</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A64">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/523"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/461">
+    <j.0:transport>05</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.6496924E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7491046E1</j.0:coordinate>
+    <j.1:givenName>AURIOL</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A65">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/8531"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/3300">
+    <j.0:transport>36</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.5873566E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7468484E1</j.0:coordinate>
+    <j.1:givenName>CHATEAU D'ANGERS</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/710">
+    <j.0:transport>01</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.0825016E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7484559E1</j.0:coordinate>
+    <j.1:givenName>DEPOT ST BARTH</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A66">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/533"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/528">
+    <j.0:transport>03</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.3759995E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7401764E1</j.0:coordinate>
+    <j.1:givenName>DEPOT ST BARTH</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/8423">
+    <j.0:transport>34</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.59469E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7465126E1</j.0:coordinate>
+    <j.1:givenName>GARES SEMARD SUB</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A67">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/712"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A68">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/820"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A69">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/8971"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/692">
+    <j.0:transport>02</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.357235E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7459228E1</j.0:coordinate>
+    <j.1:givenName>MADELEINE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/680">
+    <j.0:transport>04</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.5188224E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7467188E1</j.0:coordinate>
+    <j.1:givenName>FOCH HARAS</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A70">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/689"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A71">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/8770"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/674">
+    <j.0:transport>02</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.3847055E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7473732E1</j.0:coordinate>
+    <j.1:givenName>MUSSET</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/444">
+    <j.0:transport>09</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.1331789E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7492166E1</j.0:coordinate>
+    <j.1:givenName>DU BELLAY</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/456">
+    <j.0:transport>09</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.4755943E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7470212E1</j.0:coordinate>
+    <j.1:givenName>LORRAINE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/3272">
+    <j.0:transport>37</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-6.3512425E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7401523E1</j.0:coordinate>
+    <j.1:givenName>EPIRE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/812">
+    <j.0:transport>11</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-6.1871387E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7466888E1</j.0:coordinate>
+    <j.1:givenName>L'HOIRIE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A72">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/684"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A73">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/1017"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A74">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/444"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/606">
+    <j.0:transport>04</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.4750715E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7470717E1</j.0:coordinate>
+    <j.1:givenName>FOCH MAISON BLEUE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A75">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/812"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/8012">
+    <j.0:transport>32</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-4.6884825E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7515428E1</j.0:coordinate>
+    <j.1:givenName>CARREAUX</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A76">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/442"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A77">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/688"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A78">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/538"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/1009">
+    <j.0:transport>A</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.9571738E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7511388E1</j.0:coordinate>
+    <j.1:givenName>AVRILLE - ARDENNE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A79">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/8110"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/542">
+    <j.0:transport>12</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.0375319E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7489367E1</j.0:coordinate>
+    <j.1:givenName>ST AUBIN LA SALLE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/663">
+    <j.0:transport>02</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.3866351E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7460586E1</j.0:coordinate>
+    <j.1:givenName>VOLNEY</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/8110">
+    <j.0:transport>33</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.7344708E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7661684E1</j.0:coordinate>
+    <j.1:givenName>CROIX DE BEAUVAIS</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/813">
+    <j.0:transport>07</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.6880354E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7495603E1</j.0:coordinate>
+    <j.1:givenName>DEPOT C T B</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A80">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/438"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A81">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/806"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A82">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/676"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A83">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/813"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A84">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/535"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A85">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/805"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/1008">
+    <j.0:transport>A</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.7676747E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7493333E1</j.0:coordinate>
+    <j.1:givenName>PLATEAU MAYENNE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A86">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/807"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/684">
+    <j.0:transport>04</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-6.1920187E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7476399E1</j.0:coordinate>
+    <j.1:givenName>DEPOT C T B</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A87">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/461"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A88">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/663"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/442">
+    <j.0:transport>08</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.6877228E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7493084E1</j.0:coordinate>
+    <j.1:givenName>AQUA VITA</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/454">
+    <j.0:transport>09</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-4.9287911E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7476402E1</j.0:coordinate>
+    <j.1:givenName>DEPOT ST BARTH</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/8971">
+    <j.0:transport>35</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.59469E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7465126E1</j.0:coordinate>
+    <j.1:givenName>GARES SEMARD SUB</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A89">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/666"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A90">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/690"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A91">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/8111"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A92">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/1012"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A93">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/695"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A94">
+    <j.1:data rdf:nodeID="A18"/>
+    <j.1:data rdf:nodeID="A8"/>
+    <j.1:data rdf:nodeID="A86"/>
+    <j.1:data rdf:nodeID="A59"/>
+    <j.1:data rdf:nodeID="A28"/>
+    <j.1:data rdf:nodeID="A95"/>
+    <j.1:data rdf:nodeID="A96"/>
+    <j.1:data rdf:nodeID="A89"/>
+    <j.1:data rdf:nodeID="A88"/>
+    <j.1:data rdf:nodeID="A53"/>
+    <j.1:data rdf:nodeID="A34"/>
+    <j.1:data rdf:nodeID="A51"/>
+    <j.1:data rdf:nodeID="A13"/>
+    <j.1:data rdf:nodeID="A41"/>
+    <j.1:data rdf:nodeID="A55"/>
+    <j.1:data rdf:nodeID="A47"/>
+    <j.1:data rdf:nodeID="A16"/>
+    <j.1:data rdf:nodeID="A12"/>
+    <j.1:data rdf:nodeID="A25"/>
+    <j.1:data rdf:nodeID="A42"/>
+    <j.1:data rdf:nodeID="A44"/>
+    <j.1:data rdf:nodeID="A14"/>
+    <j.1:data rdf:nodeID="A40"/>
+    <j.1:data rdf:nodeID="A57"/>
+    <j.1:data rdf:nodeID="A7"/>
+    <j.1:data rdf:nodeID="A56"/>
+    <j.1:data rdf:nodeID="A10"/>
+    <j.1:data rdf:nodeID="A11"/>
+    <j.1:data rdf:nodeID="A43"/>
+    <j.1:data rdf:nodeID="A37"/>
+    <j.1:data rdf:nodeID="A23"/>
+    <j.1:data rdf:nodeID="A29"/>
+    <j.1:data rdf:nodeID="A92"/>
+    <j.1:data rdf:nodeID="A82"/>
+    <j.1:data rdf:nodeID="A91"/>
+    <j.1:data rdf:nodeID="A97"/>
+    <j.1:data rdf:nodeID="A81"/>
+    <j.1:data rdf:nodeID="A4"/>
+    <j.1:data rdf:nodeID="A52"/>
+    <j.1:data rdf:nodeID="A2"/>
+    <j.1:data rdf:nodeID="A22"/>
+    <j.1:data rdf:nodeID="A20"/>
+    <j.1:data rdf:nodeID="A32"/>
+    <j.1:data rdf:nodeID="A60"/>
+    <j.1:data rdf:nodeID="A83"/>
+    <j.1:data rdf:nodeID="A98"/>
+    <j.1:data rdf:nodeID="A45"/>
+    <j.1:data rdf:nodeID="A65"/>
+    <j.1:data rdf:nodeID="A90"/>
+    <j.1:data rdf:nodeID="A70"/>
+    <j.1:data rdf:nodeID="A69"/>
+    <j.1:data rdf:nodeID="A99"/>
+    <j.1:data rdf:nodeID="A49"/>
+    <j.1:data rdf:nodeID="A58"/>
+    <j.1:data rdf:nodeID="A67"/>
+    <j.1:data rdf:nodeID="A50"/>
+    <j.1:data rdf:nodeID="A84"/>
+    <j.1:data rdf:nodeID="A39"/>
+    <j.1:data rdf:nodeID="A77"/>
+    <j.1:data rdf:nodeID="A30"/>
+    <j.1:data rdf:nodeID="A15"/>
+    <j.1:data rdf:nodeID="A63"/>
+    <j.1:data rdf:nodeID="A68"/>
+    <j.1:data rdf:nodeID="A80"/>
+    <j.1:data rdf:nodeID="A1"/>
+    <j.1:data rdf:nodeID="A3"/>
+    <j.1:data rdf:nodeID="A36"/>
+    <j.1:data rdf:nodeID="A87"/>
+    <j.1:data rdf:nodeID="A66"/>
+    <j.1:data rdf:nodeID="A33"/>
+    <j.1:data rdf:nodeID="A79"/>
+    <j.1:data rdf:nodeID="A64"/>
+    <j.1:data rdf:nodeID="A46"/>
+    <j.1:data rdf:nodeID="A38"/>
+    <j.1:data rdf:nodeID="A27"/>
+    <j.1:data rdf:nodeID="A19"/>
+    <j.1:data rdf:nodeID="A26"/>
+    <j.1:data rdf:nodeID="A9"/>
+    <j.1:data rdf:nodeID="A35"/>
+    <j.1:data rdf:nodeID="A31"/>
+    <j.1:data rdf:nodeID="A0"/>
+    <j.1:data rdf:nodeID="A72"/>
+    <j.1:data rdf:nodeID="A85"/>
+    <j.1:data rdf:nodeID="A61"/>
+    <j.1:data rdf:nodeID="A78"/>
+    <j.1:data rdf:nodeID="A76"/>
+    <j.1:data rdf:nodeID="A21"/>
+    <j.1:data rdf:nodeID="A24"/>
+    <j.1:data rdf:nodeID="A5"/>
+    <j.1:data rdf:nodeID="A71"/>
+    <j.1:data rdf:nodeID="A93"/>
+    <j.1:data rdf:nodeID="A6"/>
+    <j.1:data rdf:nodeID="A62"/>
+    <j.1:data rdf:nodeID="A74"/>
+    <j.1:data rdf:nodeID="A48"/>
+    <j.1:data rdf:nodeID="A17"/>
+    <j.1:data rdf:nodeID="A54"/>
+    <j.1:data rdf:nodeID="A73"/>
+    <j.1:data rdf:nodeID="A75"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A95">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/539"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/685">
+    <j.0:transport>04</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.0410739E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7467883E1</j.0:coordinate>
+    <j.1:givenName>CROIX DE CHEMINEE</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A96">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/814"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A99">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/1005"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/714">
+    <j.0:transport>02</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-5.1840938E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7484093E1</j.0:coordinate>
+    <j.1:givenName>CHATENAY</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A98">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/456"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/811">
+    <j.0:transport>06</j.0:transport>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-6.2264032E-1</j.0:coordinate>
+    <j.0:coordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.7406155E1</j.0:coordinate>
+    <j.1:givenName>CHANTOURTEAU</j.1:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A97">
+    <j.1:fields rdf:resource="http://www.semanticweb.org/ludo1/ontologies/2021/2/gare/8106"/>
+  </rdf:Description>
+</rdf:RDF>
