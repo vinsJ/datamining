@@ -17,7 +17,7 @@
     "transportmoderef": null,
     "shortname": null,
     "coordx": null,
-    "geo": "coordinate",
+    "geo": "http://www.semanticweb.org/ludo1/ontologies/2021/2/gare#coordinate",
     "coordy": null,
     "streetname": null,
     "geometry":null,
