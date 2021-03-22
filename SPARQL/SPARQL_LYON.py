@@ -23,9 +23,9 @@ gare= dict()
 for row in g.query(qres, initBindings={'z': name,'y':trans,'p':prop,'u':coord }):
     row = str(row)
     info = re.findall("'(.*?)'|\"(.*?)\"", row)
-    name = re.search("'(.*?)'|\"(.*?)\"", row).group(0).replace('"',"'")
+    name = re.search("'(.*?)'|\"(.*?)\"", row).group(0).replace("'","").replace('"',"")
     line = info[1][0]
-    coord = info[2][0]
+    coord = float(info[2][0])
     if (not name in gare.keys()):
       gare[name] = {'coordinates':[coord], 'lines':line.split(',')}
     else:

@@ -26,15 +26,16 @@ gare= dict()
 
 for row in g.query(qres, initBindings={'z': data, 'c':name, 't':trans, 'co': cord, 'h':coord}):
     row = str(row)
-    name = re.search("'(.*?)'|\"(.*?)\"", row).group(0).replace('"',"'")
+    name = re.search("'(.*?)'|\"(.*?)\"", row).group(0).replace("'","").replace('"',"")
     info = re.findall("'(.*?)'|\"(.*?)\"", row)
     line = info[-1][0]
-    coord = info[1][0]
+    coord = float(info[1][0])
     if (not name in gare.keys()):
-      gare[name] = {'coordinates':[coord], 'lines':line.split(',')}
+      gare[name] = {'coordinates':[coord], 'lines':re.split(',|-', line)}
     else:
         if len(gare[name]['coordinates'])<2:
             gare[name]['coordinates'].append(coord)
         else:
-            gare[name]['lines'].append(line)
+            if(not re.split(',|-', line)[0] in gare[name]['lines']):
+                gare[name]['lines'].extend(re.split(',|-', line))
 print(gare)
