@@ -1,6 +1,4 @@
-import rdflib
-
-import rdflib 
+import rdflib, re
 from rdflib.plugins.sparql import prepareQuery
 
 qres = prepareQuery(
@@ -14,10 +12,8 @@ qres = prepareQuery(
        }
        """)
 g = rdflib.Graph()
-#Nantes
-#Lille
-#IDF
-g.load("./Lyon/Lyon.rdf")
+
+g.load("../Lyon.rdf")
 name= rdflib.term.URIRef('http://schema.org/givenName')
 coord=rdflib.term.URIRef('http://www.semanticweb.org/ludo1/ontologies/2021/2/gare#coordinate')
 trans=rdflib.term.URIRef('http://www.semanticweb.org/ludo1/ontologies/2021/2/gare#transport')
@@ -26,10 +22,13 @@ prop=rdflib.term.URIRef('http://schema.org/properties')
 gare= dict()
 for row in g.query(qres, initBindings={'z': name,'y':trans,'p':prop,'u':coord }):
     row = str(row)
-    print(row)
-    txt=row.split("'")
-    #print(txt[1],txt[3],txt[7])
-    # if(row[1] in gare.keys()){
-    #     gare[row[1]]=[gare[row[1]],row[3]]
-    # }
-print(g.query(qres, initBindings={'z': name,'y':coord}) )
+    info = re.findall("'(.*?)'|\"(.*?)\"", row)
+    name = re.search("'(.*?)'|\"(.*?)\"", row).group(0).replace('"',"'")
+    line = info[1][0]
+    coord = info[2][0]
+    if (not name in gare.keys()):
+      gare[name] = {'coordinates':[coord], 'lines':line.split(',')}
+    else:
+      if len(gare[name]['coordinates'])<2:
+        gare[name]['coordinates'].append(coord)
+print(gare)

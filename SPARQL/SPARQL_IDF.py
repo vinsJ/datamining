@@ -12,10 +12,9 @@ qres = prepareQuery(
        }
        """)
 g = rdflib.Graph()
-#Nantes
-#Lille
-#IDF
-g.load("./IDF.rdf")
+
+
+g.load("../IDF.rdf")
 name= rdflib.term.URIRef('http://schema.org/givenName')
 coord=rdflib.term.URIRef('http://www.semanticweb.org/ludo1/ontologies/2021/2/gare#coordinate')
 trans=rdflib.term.URIRef('http://www.semanticweb.org/ludo1/ontologies/2021/2/gare#transport')
