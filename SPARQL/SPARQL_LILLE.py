@@ -1,3 +1,4 @@
+import json
 import rdflib , re
 from rdflib.plugins.sparql import prepareQuery
 
@@ -13,7 +14,7 @@ qres = prepareQuery(
 g = rdflib.Graph()
 
 
-g.load("../Lille.rdf")
+g.load("./data/rdf/Lille.rdf")
 name= rdflib.term.URIRef('http://schema.org/givenName')
 coord=rdflib.term.URIRef('http://www.semanticweb.org/ludo1/ontologies/2021/2/gare#coordinate')
 trans=rdflib.term.URIRef('http://www.semanticweb.org/ludo1/ontologies/2021/2/gare#transport')
@@ -29,4 +30,9 @@ for row in g.query(qres, initBindings={'z': name,'y':coord, 'w':trans}):
     else:
       if len(gare[name]['coordinates'])<2:
         gare[name]['coordinates'].append(coord)
-print(gare)
+
+
+lille_stations = {"Location": "Lille", "Stations": gare}
+
+with open("./data/Lille.json", "w") as jfile:
+  json.dump(lille_stations, jfile)
