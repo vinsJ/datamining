@@ -1,9 +1,7 @@
 # Datamining final project - ESILV M1 Data&IA
 
-Not made with ❤
+Transport map using JSONLD to get information from multiples API. 
 
----
+SPARQL to querry our RDF files in DJANGO when loading the page 
 
-To modify the code go to : 
-
-- geo/geoApp/views.py
+***Only IDF and Nantes are loaded because the map cannot handle more***

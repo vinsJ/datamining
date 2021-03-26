@@ -5,31 +5,26 @@ import os
 import os
 from django.conf import settings
 
+from geoApp.SPARQL_IDF import get_IDF
+from geoApp.SPARQL_LILLE import get_lille
+from geoApp.SPARQL_LYON import get_lyon
+from geoApp.SPARQL_MTP import get_mtp
+from geoApp.SPARQL_NANTES import get_nantes
+
+
 STATIC_ROOT = os.path.join(settings.BASE_DIR, 'static/data')
 
 import json
 
 list_data = []
 
-with open(f"{STATIC_ROOT}/IDF.json") as fileJ:
-    data = json.load(fileJ)
-    list_data.append(data)
+list_data.append(get_IDF(f"{STATIC_ROOT}/IDF.rdf"))
+list_data.append(get_lille(f"{STATIC_ROOT}/Lille.rdf"))
+list_data.append(get_lyon(f"{STATIC_ROOT}/Lyon.rdf"))
+list_data.append(get_mtp(f"{STATIC_ROOT}/MTP.rdf"))
+list_data.append(get_nantes(f"{STATIC_ROOT}/Nantes.rdf"))
 
-with open(f"{STATIC_ROOT}/Lille.json") as fileJ:
-    data = json.load(fileJ)
-    list_data.append(data)
-
-with open(f"{STATIC_ROOT}/Lyon.json") as fileJ:
-    data = json.load(fileJ)
-    list_data.append(data)
-
-with open(f"{STATIC_ROOT}/MTP.json") as fileJ:
-    data = json.load(fileJ)
-    list_data.append(data)
-
-with open(f"{STATIC_ROOT}/Nantes.json") as fileJ:
-    data = json.load(fileJ)
-    list_data.append(data)
+m = folium.Map(location=[48.866669,  2.33333],zoom_start=6)
 
 def get_emoji(lines):
     emoji = 'train'
@@ -52,11 +47,9 @@ def get_color(lines):
 def home(request):
 
     # folium
-    # Center of France : [46.227638,2.213749]
+    m = folium.Map(location=[48.866669,  2.33333],zoom_start=6)
 
     # link of icon : https://fontawesome.com/icons?d=gallery&p=2&q=train
-
-    m = folium.Map(location=[48.866669,  2.33333],zoom_start=6)
 
     for data_obj in list_data:
         # or data_obj['Location'] == "Nantes" or data_obj['Location'] == "Lille"
@@ -77,3 +70,23 @@ def home(request):
 
     ## rendering
     return render(request,'geoApp/home.html',context)
+
+def test():
+    print("here")
+    m1 = folium.Map(location=[48.866669,  2.33333],zoom_start=6)
+
+    for data_obj in list_data:
+    # or data_obj['Location'] == "Nantes" or data_obj['Location'] == "Lille"
+        if(data_obj['Location'] == "IDF"):
+            for key, value in data_obj['Stations'].items():
+                if("GL" not in value['lines']):
+                    coords = [max(value['coordinates']), min(value['coordinates'])]
+                    name = key
+                    lines = value['lines']
+                    folium.Marker(coords, tooltip=name, popup=lines, icon=folium.Icon(
+                        color=get_color(lines), icon=get_emoji(lines), prefix='fa')).add_to(m1)
+
+    ## adding to view
+
+    ## exporting
+    m=m1._repr_html_()
