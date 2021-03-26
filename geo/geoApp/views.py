@@ -70,23 +70,3 @@ def home(request):
 
     ## rendering
     return render(request,'geoApp/home.html',context)
-
-def test():
-    print("here")
-    m1 = folium.Map(location=[48.866669,  2.33333],zoom_start=6)
-
-    for data_obj in list_data:
-    # or data_obj['Location'] == "Nantes" or data_obj['Location'] == "Lille"
-        if(data_obj['Location'] == "IDF"):
-            for key, value in data_obj['Stations'].items():
-                if("GL" not in value['lines']):
-                    coords = [max(value['coordinates']), min(value['coordinates'])]
-                    name = key
-                    lines = value['lines']
-                    folium.Marker(coords, tooltip=name, popup=lines, icon=folium.Icon(
-                        color=get_color(lines), icon=get_emoji(lines), prefix='fa')).add_to(m1)
-
-    ## adding to view
-
-    ## exporting
-    m=m1._repr_html_()
