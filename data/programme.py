@@ -2,11 +2,13 @@ import json
 import requests
 import os
 
-PATH_JENA = "E:/OneDrive/Documents/ESILV A4 2020-2021/Web_datamining/datamining/jena/bat"
+from dotenv import load_dotenv
 
-jena_bin = PATH_JENA
+load_dotenv()
 
-os.chdir(jena_bin)
+PATH_JENA = os.getenv('PATH_JENA')
+
+os.chdir(PATH_JENA)
 os.system("riot.bat --output=RDF/XML ../../datamining/IDF.jsonld> ../../datamining/IDF.rdf")
 
 
